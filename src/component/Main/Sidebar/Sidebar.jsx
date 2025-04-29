@@ -37,7 +37,7 @@ const sidebarItems = [
   {
     path: "/pubg-uc",
     name: "Pubg UC",
-    icon: <GoHomeFill className="size-6" />,
+    icon: '/homepage/navIitem.png',
   },
   {
     path: "/offers-fees",
@@ -111,7 +111,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
                 }`
               }
             >
-              {item?.icon}
+              {item?.icon == '/homepage/navIitem.png' ? <img src={item.icon} alt="" /> : item.icon}
               <h>{item.name}</h>
             </NavLink>
           ))}
