@@ -38,14 +38,14 @@ const Header = ({ toggleSidebar }) => {
 
       <div className="flex justify-between items-center gap-5">
         <Link to={"/notification"}>
-          <h1 className="relative text-[#038c6d] p-2 rounded-full bg-white">
+          <h1 className="relative text-[#00adb5] p-2 rounded-full bg-white">
             <MdNotificationsNone className="size-8" />{" "}
             {/* <span className="absolute top-0 right-0 w-5 h-5 text-white text-xs flex justify-center items-center bg-red-500 rounded-full">99+</span> */}
           </h1>
 
         </Link>
         <img
-          className="w-12 rounded-full"
+          className="w-12 rounded-full cursor-pointer"
           src={user?.profileImageUrl ? Url + user?.profileImageUrl : userImage}
           alt="User Profile"
         />
