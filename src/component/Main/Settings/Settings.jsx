@@ -27,9 +27,13 @@ const Settings = () => {
     //   path: "personal-info",
     // },
     {
-      title: "Personal Information",
-      path: "personal-info",
+      title: "Send Notification",
+      path: "send-notification",
     },
+    // {
+    //   title: "Personal Information",
+    //   path: "personal-info",
+    // },
     {
       title: "Change password",
       path: "change-password",
@@ -209,7 +213,7 @@ const Settings = () => {
                 </button>
               </p> */}
               <Form.Item className="w-full">
-                <button className="w-full bg-[#038c6d] text-white p-3 text-xl font-semibold rounded-md">Update Password</button>
+                <button className="w-full bg-[#00adb5] text-white p-3 text-xl font-semibold rounded-md">Update Password</button>
               </Form.Item>
             </Form>
           </div>
@@ -322,7 +326,7 @@ const Settings = () => {
                 <CustomInput placeholder="Confirm Password" isPassword />
               </Form.Item>
               <Form.Item>
-                <button className="w-full bg-[#038c6d] text-white p-3 text-xl font-semibold rounded-md">Update password</button>
+                <button className="w-full bg-[#00adb5] text-white p-3 text-xl font-semibold rounded-md">Update password</button>
               </Form.Item>
             </Form>
           </div>

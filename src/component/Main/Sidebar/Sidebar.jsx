@@ -146,7 +146,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
                 }`
               }
             >
-              {item?.icon}
+              {item?.icon == '/homepage/navIitem.png' ? <img src={item.icon} alt="" /> : item.icon}
               <h>{item.name}</h>
             </NavLink>
           ))}

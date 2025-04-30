@@ -48,6 +48,8 @@ import Lawyera from "../page/Lawyer/Lawyera";
 import PrivetRoute from "../PrivetRoute/PrivetRoute";
 import Transactions from "../component/Transactions/Transactions";
 import OffersAndFees from "../component/OffersAndFees/OffersAndFees";
+import SendNotification from "../page/Settings/SendNotification";
+import SelectedUser from "../page/Settings/SelectedUser";
 
 
 
@@ -81,7 +83,6 @@ const router = createBrowserRouter([
         element: <Transactions />,
       },
 
-
       {
         path: "pubg-uc",
         element: <CategoriesPage />,
@@ -113,6 +114,14 @@ const router = createBrowserRouter([
       {
         path: "settings",
         element: <SettingsPage />,
+      },
+      {
+        path: "settings/send-notification",
+        element: <SendNotification />,
+      },
+      {
+        path: "settings/selected-user",
+        element: <SelectedUser />,
       },
       {
         path: "settings/all-faq",

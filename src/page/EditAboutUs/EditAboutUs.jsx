@@ -36,7 +36,7 @@ const EditAboutUs = () => {
       message.error("Failed to update About Us.");
     }
   };
- 
+
 
   return (
     <section className="w-full h-full min-h-screen">
@@ -81,7 +81,7 @@ const EditAboutUs = () => {
             <Button
               type="primary"
               htmlType="submit"
-              className="bg-[#038c6d] text-white px-5 text-xl py-2 rounded-md"
+              className="bg-[#00adb5] text-white px-5 text-xl py-2 rounded-md"
               loading={isLoading || isFetching} // Show loading state
             >
               {isLoading || isFetching ? "Updating..." : "Update"}
