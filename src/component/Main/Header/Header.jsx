@@ -40,7 +40,7 @@ const Header = ({ toggleSidebar }) => {
         <Link to={"/notification"}>
           <h1 className="relative text-[#00adb5] p-2 rounded-full bg-white">
             <MdNotificationsNone className="size-8" />{" "}
-            {/* <span className="absolute  top-0 right-0 w-5 h-5 text-white text-xs flex justify-center items-center bg-red-500 rounded-full">99+</span> */}
+            {/* <span className="absolute j top-0 right-0 w-5 h-5 text-white text-xs flex justify-center items-center bg-red-500 rounded-full">99+</span> */}
           </h1>
 
         </Link>

@@ -50,6 +50,7 @@ import Transactions from "../component/Transactions/Transactions";
 import OffersAndFees from "../component/OffersAndFees/OffersAndFees";
 import SendNotification from "../page/Settings/SendNotification";
 import SelectedUser from "../page/Settings/SelectedUser";
+import FeedbackAll from "../page/Settings/FeedbackAll";
 
 
 
@@ -114,6 +115,10 @@ const router = createBrowserRouter([
       {
         path: "settings",
         element: <SettingsPage />,
+      },
+      {
+        path: "settings/feedback",
+        element: <FeedbackAll />,
       },
       {
         path: "settings/send-notification",
